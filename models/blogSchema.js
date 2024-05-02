@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 
+// creating a new blog post schema
+
 const blog = new mongoose.Schema(
     {
         title:{
@@ -30,5 +32,7 @@ const blog = new mongoose.Schema(
         
     }
 );
+
+// exporting schema by the name of Post
 
 module.exports = mongoose.model("Post",blog);
