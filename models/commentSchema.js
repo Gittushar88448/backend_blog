@@ -1,5 +1,7 @@
 const mongoose =  require('mongoose')
 
+// create a schema for comments
+
 const comments = new mongoose.Schema(
     {
         post: {
@@ -16,4 +18,6 @@ const comments = new mongoose.Schema(
         }
     }
 );
+// exporting comment schema by the name of comments
+
 module.exports = mongoose.model("comments",comments);
