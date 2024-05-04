@@ -23,11 +23,11 @@ const blog = new mongoose.Schema(
         },
         likes:[{
             type: mongoose.Schema.Types.ObjectId,
-            ref:"likes"
+            ref:"Likes"
         }],
         comments:[{
             type: mongoose.Schema.Types.ObjectId,
-            ref: "comments"
+            ref: "Comments"
         }]
         
     }
