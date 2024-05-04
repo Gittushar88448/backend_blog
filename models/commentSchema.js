@@ -20,4 +20,4 @@ const comments = new mongoose.Schema(
 );
 // exporting comment schema by the name of comments
 
-module.exports = mongoose.model("comments",comments);
+module.exports = mongoose.model("Comments",comments);
