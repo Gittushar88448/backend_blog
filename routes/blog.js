@@ -8,5 +8,6 @@ const {createComment} = require('../controllers/commentController');
 
 router.post('/posts/create' , createBlog);
 router.post("/comments/create" , createComment);
+router.get('/posts' , getAllPosts);
 
 module.exports = router;
