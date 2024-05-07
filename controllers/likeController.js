@@ -1,6 +1,8 @@
 const Post = require('../models/blogSchema');
 const Likes = require('../models/likeSchema');
 
+// creating a business logic for like post
+
 exports.likePost = async(req , res) =>{
 
     try{
@@ -32,6 +34,8 @@ exports.likePost = async(req , res) =>{
     }
 
 }
+
+// creating a business logic for unlike post
 
 exports.unlikePost = async(req , res) =>{
     try{
